@@ -1,0 +1,27 @@
+body{
+  margin:0;
+  overflow:hidden;
+  background:#87CEEB;
+}
+
+#game{
+  width:100vw;
+  height:100vh;
+}
+
+#controls{
+  position:fixed;
+  bottom:20px;
+  width:100%;
+  display:flex;
+  justify-content:center;
+  gap:15px;
+}
+
+button{
+  width:70px;
+  height:70px;
+  border:none;
+  border-radius:50%;
+  font-size:28px;
+  }
